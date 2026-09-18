@@ -440,6 +440,25 @@ div.issue .attributes .attribute .label {
   min-width: 200px;
   max-width: 200px;
   width: 200px;
+  padding-right: 3px;
+}
+
+.details #issue_tree tr.issue.child .start_date {
+  font-size: 12px;
+  box-sizing: border-box;
+  min-width: 90px;
+  max-width: 90px;
+  width: 90px;
+  padding-right: 3px;
+} 
+
+.details #issue_tree tr.issue.child .due_date {
+  font-size: 12px;
+  box-sizing: border-box;
+  min-width: 90px;
+  max-width: 90px;
+  width: 90px;
+  padding-right: 3px;
 }
 
 /** раздел связанные задачи */
