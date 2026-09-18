@@ -120,6 +120,11 @@ table.list td.fixed_version a {
   display: block;
 }
 
+/** задачи из скоупа ML */
+.relation-issues-wrapper tr.issue.tracker-25 td.fixed_version a {
+  background: rgb(255, 251, 170) !important;
+}
+
 table.list td:nth-of-type(2n - 1) {
   background: rgba(0,0,0,0.02);
 }
@@ -420,8 +425,21 @@ div.issue .attributes .attribute .label {
   box-sizing: border-box;
   padding-left: 10px;
 }
-.details #issue_tree tr.issue.child .subject {
-  min-width: 50%;
+
+.details #issue_tree tr.issue.child .agile_sprint, .details #issue_tree tr.issue.child .fixed_version {
+  box-sizing: border-box;
+  min-width: 80px;
+  max-width: 80px;
+  width: 80px;
+  word-break: break-word;
+  white-space: initial;
+}
+
+.details #issue_tree tr.issue.child .fixed_version {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 200px;
+  width: 200px;
 }
 
 /** раздел связанные задачи */
